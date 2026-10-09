@@ -9,15 +9,15 @@ int main()
     scanf("%d", &a);
 
     if (a < RFZ) {
-        printf("Die Variable ist kleiner als die Konstante.\n");
+        printf("Ihre Zahl ist kleiner als die Konstante.\n");
     }
 
     else if (a > RFZ) {
-        printf("Die Variable ist größer als die Konstante.\n");
+        printf("Ihre Zahl ist größer als die Konstante.\n");
     }
 
     else {
-        printf("Die Variable ist gleich der Konstante.\n");
+        printf("Ihre Zahl ist gleich groß wie die Konstante.\n");
     }
 
     return 0;
